@@ -1,0 +1,44 @@
+body{
+    background-color: dimgray;
+}
+#main-container
+{
+    display: flex;
+    flex-direction: column; 
+}
+#pong{
+    border: 2px solid #FFF;
+    position: absolute;
+    margin :auto;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+   
+}
+#main1
+{
+ position: relative;   
+ left:32%;
+ top:10px;
+ color: white;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 30px;
+ display: flex;
+ width:500px;
+ font-weight: 900;
+ justify-content: space-between;
+}
+button {
+    background-color:#F58529;
+    border: 1px solid gainsboro;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+  }
