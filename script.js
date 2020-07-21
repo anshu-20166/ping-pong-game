@@ -1,5 +1,5 @@
 const canvas = document.getElementById("pong");
-
+window.alert("use mouse to move the user's Paddle");
 // getContext of canvas = methods and properties to draw and do a lot of thing to the canvas
 const ctx = canvas.getContext('2d');
 const ball = {
